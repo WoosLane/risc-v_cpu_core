@@ -1,0 +1,85 @@
+# ---------------------------
+# OS-specific junk files
+# ---------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ---------------------------
+# Vivado / Xilinx generated files
+# ---------------------------
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.dcp
+*.xpr
+*.runs/
+*.sim/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.srcs/
+*.xdc~
+*.xsa
+
+# ---------------------------
+# Questa / Modelsim
+# ---------------------------
+work/
+vsim.wlf
+transcript
+*.vstf
+
+# ---------------------------
+# Simulation outputs
+# ---------------------------
+*.vcd
+*.vpd
+*.saif
+*.fst
+*.ucdb
+*.wcfg
+*.asdb
+*.trn
+
+# ---------------------------
+# Build outputs
+# ---------------------------
+*.o
+*.out
+*.exe
+*.hex
+*.elf
+*.map
+
+# ---------------------------
+# Python scripts (if used for automation)
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+
+# ---------------------------
+# Documentation temp files
+# ---------------------------
+*.aux
+*.toc
+*.lot
+*.lof
+*.log
+*.gz
+*.synctex*
+*.bak
+*.tmp
